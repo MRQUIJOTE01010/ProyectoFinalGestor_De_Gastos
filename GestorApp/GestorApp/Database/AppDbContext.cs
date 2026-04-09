@@ -10,7 +10,7 @@ namespace GestorGastos.Database
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Usa SQLite local. Cambia la cadena si prefieres otra base de datos.
+            // Uso de SQL
             optionsBuilder.UseSqlite("Data Source=gastos.db");
         }
 
